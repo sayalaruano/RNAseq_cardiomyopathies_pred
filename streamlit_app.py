@@ -48,7 +48,7 @@ st.sidebar.subheader('Input Rnaseq data')
 
 rnaseq_data = st.sidebar.file_uploader("Upload your Rnaseq data in CSV format", type=['csv'], help='Be sure to upload a CSV file with the RNA-seq data in the same format as the example file.')
 
-st.sidebar.write('You can find examples of healthy and DCM RNAseq data in csv file [here](https://github.com/sayalaruano/RNAseq_cardiomyopathies_pred/Examples).')
+st.sidebar.write('You can find examples of healthy and DCM RNAseq data in csv file [here](https://github.com/sayalaruano/RNAseq_cardiomyopathies_pred/tree/main/Examples).')
 
 # Predict button
 if st.sidebar.button('Predict'):
